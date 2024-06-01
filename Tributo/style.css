@@ -1,3 +1,5 @@
+
+/*Titulo animado*/
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 body {    
@@ -9,7 +11,7 @@ body {
 }
 
 svg {
-    font-family: "Russo One", sans-serif;
+    font-family: cursive;
     width: 100%; height: 100%;
 }
 
@@ -37,14 +39,49 @@ svg text {
     background-color:    #FFFF;
 }
 
-.Akira, .Slump, .Dragon-Ball, .Dragon-Quest, .Dragon-Ball-Z, .Sand-land {    
+/*Centralização de imagem*/
+.Akira, .Slump, .Dragon-Ball, .Dragon-Quest, .Dragon-Ball-Z, .Sand-land{    
     width: 400px;
 	height: 600px;
     display: block;
     margin: auto;
     border-radius: 20px;
     
+}
+
+.AkiraToriyama2, .Arale-Goku{  
+    width: 600px;
+	height: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;  
+    padding: 10px;
+
+}
+
+.Dragon-Boy{  
+    width: 800px;
+	height: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;  
+    padding: 10px;  
     
+}
+
+.Oda-Kishimoto{ 
+    width: 800px;
+	height: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;  
+    padding: 10px;
+
+}
+
+
+p, h1, h2, h3, li, ul {  
+    font-family: cursive;
 }
 
 .header {
